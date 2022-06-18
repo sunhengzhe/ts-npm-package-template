@@ -33,3 +33,17 @@ yarn add -D typescript prettier tslint tslint-config-prettier jest ts-jest @type
 **version** will run after a new version has been bumped. This command will run BEFORE the commit is made.
 
 **postversion** will run after the commit has been made. A perfect place for pushing the commit as well as the tag.
+
+## Publish
+
+1. Bumping a new version
+
+```
+npm version [newversion | major | minor | patch | ...]
+```
+
+2. Publish
+
+```
+npm publish
+```
